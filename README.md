@@ -43,6 +43,41 @@ index.html
 </body>
 </html>
 
+
+cadastro.html
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <header>
+        <h1>Cadastro</h1>
+    </header>
+    
+    <main>
+        <form id="register-form">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <label for="password">Senha:</label>
+            <input type="password" id="password" required>
+            <button type="submit">Cadastrar</button>
+        </form>
+        <p>Já tem conta? <a href="login.html">Entrar</a></p>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
 style.css
 body {
     font-family: Arial, sans-serif;
